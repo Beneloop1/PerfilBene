@@ -1,0 +1,96 @@
+img{
+    padding: 20px;
+    border-radius: 100px;
+}
+h1{
+    color: #00ffff;
+}
+header{
+  background-color: #02059b;
+  padding: 5    px;
+  text-shadow: 2px 2px #000000;
+  border: 1px solid #000000; 
+  border-radius: 50px;
+}
+.texto{
+    color: rgb(11, 179, 5);
+}
+body{
+    background: linear-gradient(to bottom, #02059b, #05b1b1);
+    border-top: 120px;
+    margin: 140px auto;
+    padding: 30px;
+    max-width: 500px;
+    background-color: #6add0d;
+    border: 1px solid #000000; 
+    border-radius:50px;
+    text-align: center;
+    position:  auto;
+}
+#welcome-message {
+    position: absolute;
+    bottom: 870px;
+    width: 27%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(12, 182, 20);
+    z-index: 2; /* Acima do contêiner e efeitos */
+    animation: fadeIn 2s ease-in-out;
+  }
+ul{
+    list-style-type: square;
+    text-align: left;
+    color: #00ffff;
+}
+.hobbies{
+    margin: 5px auto;
+    padding: 5px;
+    max-width: 1700px;
+    background-color: #02059b;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+h2{
+  color: #00ffff;
+}
+.link{
+  color: #00ffff;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 200px;
+    border-radius:50px;
+}
+.floating-effect {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #cecfceab;
+    border-radius: 50%;
+    animation: floatDown 7s linear infinite;
+    z-index: 0; /* Atrás do contêiner */
+  }
+
+  /* Animação para as bolas descendo */
+
+@keyframes floatDown {
+    from {
+      top: -10%;
+      transform: translateX(0) scale(0.5);
+    }
+    to {
+      top: 110%;
+      transform: translateX(50px) scale(1);
+    }
+  }
+
+  /* Animação para mensagem de boas-vindas */
+  @keyframes fadeIn {
+    from {
+      opacity: 1;
+    }
+to {
+      opacity: 1;
+    }
+  }
+  
+
